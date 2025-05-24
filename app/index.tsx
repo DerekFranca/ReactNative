@@ -1,9 +1,19 @@
-import { Text, View } from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl text-dark-200 font-bold">Bem vindo</Text>
+    <View>
+      <Text className="bg-blue-500 text-white pl-3 h-10 text-2xl">Detalhe do produto</Text>
+
+    <View>
+      <Image 
+      className="w-32 h-32 rounded-full"
+      source={{uri: 'https://static.vecteezy.com/system/resources/previews/022/996/364/non_2x/free-golden-chinese-dragon-ai-generative-free-png.png'}}/>
+  
+    </View>
+
+  
+
     </View>
   );
 }
